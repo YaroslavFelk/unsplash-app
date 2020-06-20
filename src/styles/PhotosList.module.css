@@ -1,0 +1,19 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-y: visible;
+}
+
+.myMasonryGrid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+
+.myMasonryGrid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+

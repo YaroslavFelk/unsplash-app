@@ -1,0 +1,3 @@
+export const FETCH_PHOTOS = 'FETCH_PHOTOS'
+export const GET_UNSPLASH_OBJ = 'GET_UNSPLASH_OBJ'
+export const INITIAL_PAGE = 0
