@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 export function Photo ({photo}) {
   return (
-    <div key={photo.id} className={styles.photo}>
-      <Link to={`/photo/${photo.id}`} >
+    <div key={photo.cover_photo.id} className={styles.photo}>
+      <Link to={`/photo/${photo.cover_photo.id}`} >
         <img src={photo.cover_photo.urls.small} alt="photodawd"/>
         <div className={styles.info}>
 
@@ -29,7 +29,7 @@ export function Photo ({photo}) {
           </div>
 
           <button className={styles.like} >
-            <i className="fa fa-heart" aria-hidden="true"></i>
+            <i className="fa fa-heart" aria-hidden="true" />
           </button>
         </div>
       </Link>

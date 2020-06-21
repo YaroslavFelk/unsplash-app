@@ -1,0 +1,117 @@
+.fixed {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.modal {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+  position:fixed;
+  z-index: 10;
+
+  background: rgba(0,0,0,0.5);
+}
+
+.modalContainer {
+  max-width: 1320px;
+  background-color: #fff;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.imageBlock {
+  padding: 40px;
+}
+
+.imageBlock img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 18px;
+  color: #000;
+}
+
+.author_img {
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+}
+
+.author_name {
+  margin-left: 15px;
+  color: #000;
+}
+
+.author_name:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.publish_date {
+  color: #000;
+}
+
+.like {
+  margin-left: 40px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #fff;
+}
+
+.like i {
+
+  width: 35px;
+  height: 35px;
+
+  font-size: 22px;
+}
+
+.like:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.like:hover i {
+  color: red;
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+}
+
+.active:hover {
+  color: #000;
+}
+
+.active:hover i {
+  color: #000;
+}
+
+.infoBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.photoDescription {
+  max-width: 60%;
+}
+
